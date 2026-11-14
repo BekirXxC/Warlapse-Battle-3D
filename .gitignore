@@ -1,0 +1,13 @@
+dist/
+.package-work/
+install-location.json
+*.log
+*.pdb
+*.zip
+*.zip.sha256
+Warlapse.exe
+Warlapse_Data/
+UnityPlayer.dll
+MonoBleedingEdge/
+Battle3D-Package/
+*.lnk

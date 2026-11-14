@@ -1,0 +1,84 @@
+﻿Warlapse Battle 3D 7.6.1
+======================
+ENGLISH / TÜRKÇE — README.md contains the full bilingual guide.
+
+Project / Proje:
+https://github.com/BekirXxC/Warlapse-Battle-3D
+Download / İndir:
+https://github.com/BekirXxC/Warlapse-Battle-3D/releases/latest
+Issues / Hata bildir:
+https://github.com/BekirXxC/Warlapse-Battle-3D/issues
+
+ENGLISH
+-------
+A community-made 3D battlefield and soldier-camera mod for Windows / Steam
+Warlapse. The 3D features are for offline battles.
+
+1. Install Warlapse through Steam on Windows.
+2. Extract all files from the Windows ZIP package.
+3. Run Kur.cmd. If prompted, enter the folder containing Warlapse.exe.
+4. Launch with the desktop shortcut or Oyunu-Ac.cmd.
+5. Finish deployment in an offline battle, then press G.
+
+The mod starts in ENGLISH (ENG), independently of the game language.
+The installed-status text, mod information panel, controls and warnings use
+English by default. Use TR / ENG on the mod's main-menu badge to switch.
+In 3D, hold Ctrl to show the cursor and click TR / ENG in the HUD.
+Your explicit language choice is saved for the next launch.
+The game itself keeps its own language setting.
+
+The main-menu badge shows the mod logo and version. Its information panel
+includes a GitHub Releases download/update button.
+
+Installation creates a separate game copy, by default:
+%LOCALAPPDATA%\Warlapse-Battle3D-761
+Oyunu-Ac.cmd follows a custom target recorded in install-location.json.
+The installer checks the supported game build by SHA-256; another build stops
+installation. Game files are not included in this package.
+The modded copy and Steam game share saves and settings.
+To uninstall, close the game and remove only your modded game copy and its
+shortcut. Keep the shared saves folder. Use a fresh target for an update.
+
+Controls: G = 2D/3D; Esc = return to 2D; WASD + mouse = move/look.
+E/Q = free-camera height; Left Shift/Alt = free-camera faster/slower.
+F = soldier camera/free camera; Tab = next soldier; Shift+Tab = own soldier.
+P = toggle control; soldier control: Shift = run, left click = attack a visible
+enemy, right click = aim zoom. F8 = enhanced graphics. Ctrl = HUD pointer.
+Combat, damage and outcomes remain unit-based. Individual movement is visual.
+Enhanced graphics start disabled; performance depends on hardware and scene.
+
+TÜRKÇE
+------
+Savaşı haritadan izle. Sonra bir askerin gözünden yaşa.
+Windows / Steam Warlapse için topluluk modu. 3D özellikleri çevrimdışı savaş içindir.
+
+1. Steam Warlapse kurulu olsun. Windows ZIP'inin tamamını çıkarın.
+2. Kur.cmd dosyasını açın. Oyun bulunamazsa Warlapse.exe klasörünü girin.
+3. Masaüstü kısayolundan veya Oyunu-Ac.cmd ile başlatın.
+4. Çevrimdışı savaşta konuşlandırma bittikten sonra G ile 3D'ye geçin.
+
+Mod başlangıçta İNGİLİZCE (ENG) açılır. Kurulu durum metni, mod bilgi paneli,
+kontroller ve uyarılar varsayılan olarak İngilizcedir. Ana menüdeki mod
+rozetinden TR / ENG seçebilirsiniz. 3D'de Ctrl basılı tutup imleci göstererek
+TR / ENG düğmesine tıklayın. Seçiminiz sonraki açılış için kaydedilir.
+Mod dili ve oyunun kendi dil ayarı ayrıdır.
+Ana menüde sade logo, sürüm ve GitHub indirme bağlantılı mod bilgisi bulunur.
+
+Kurucu yukarıda belirtilen konumda ayrı bir oyun kopyası oluşturur. Özel hedef
+install-location.json dosyasına kaydedilir. Modlu kopya ve Steam oyunu aynı
+kayıt ve ayar klasörünü paylaşır. Kaldırmak için oyun kapalıyken yalnızca
+oluşturulan modlu kopyayı ve kısayolunu silin; ortak kayıt klasörünü silmeyin.
+Kurucu mevcut hedefin üzerine yazmaz; güncellemede boş hedef kullanın.
+
+Kontroller: G = 2D/3D; Esc = 2D'ye dön; WASD + fare = hareket/bakış.
+E/Q = serbest kamera yüksekliği; Sol Shift/Alt = hızlan/yavaşla.
+F = asker gözü/serbest kamera; Tab = sonraki asker; Shift+Tab = kendi askerin.
+P = asker kontrolü; asker kontrolünde Shift = koş, sol tık = görünür düşmana
+saldır, sağ tık = nişan yakınlaştırması. F8 = gelişmiş grafikler. Ctrl = imleç.
+Saldırı ve hasar birlik düzeyinde hesaplanır; bireysel hareket görsel konumdur.
+
+Workshop sayfası tanıtım ve GitHub indirme bağlantısı içindir.
+assets/workshop-cover.png tanıtım illüstrasyonudur. Malazgirt ve Berlin
+olarak belirtilen görseller, 7.6.0'dan gerçek oyun görüntüleridir.
+7.6.1 aynı oynanış temelini yayın araçları ve TR/ENG mod metinleriyle sunar.
+Bileşen bildirimleri: THIRD-PARTY-NOTICES.md
