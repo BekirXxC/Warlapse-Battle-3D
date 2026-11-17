@@ -6,6 +6,9 @@ Publication package for GitHub distribution. The mod defaults to English (ENG); 
 
 GitHub üzerinden dağıtım için yayın paketi:
 
+- Gerçek 3D moddan ayrı, resmî `visuals` kategorisiyle yayımlanabilen 1.0.0 duyuru paketi; yalnızca kimlik bilgileri, kullanıcı logosu ve açıklama dosyası içerir.
+- Workshop açıklamasında boş paket/harici indirme ayrımı ve ayrıntılı İngilizce/Türkçe kurulum bilgileri.
+
 - Modun kurulu durum metni, bilgi paneli, kontroller ve uyarılar için varsayılan İngilizce; ana menüde ve 3D arayüzünde kaydedilen TR / ENG dil seçimi.
 - GitHub indirme ve kurulum akışına göre düzenlenmiş açıklamalar; Türkçe ve İngilizce Workshop metinleri.
 - Ana menüde sade logo ve sürüm rozeti; mod bilgi paneli ve GitHub Releases bağlantısı.

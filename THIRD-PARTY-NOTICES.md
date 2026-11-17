@@ -20,6 +20,7 @@ Warlapse, kendi hak sahiplerine aittir. Bu paket bağımsız bir topluluk modudu
 ## Görseller
 
 - `assets/logo.png`: mod için hazırlanmış logo.
+- `assets/workshop-logo.png`: kullanıcının Workshop için sağladığı görsel; değiştirilmeden kopyalanmıştır. Duyuru kaynağındaki `workshop/battle3d-github-info/preview.png` aynı dosya içeriğini kullanır.
 - `assets/workshop-cover.png`: yapay zekâ ile üretilmiş tanıtım illüstrasyonu; oyun ekran görüntüsü değildir.
 - `assets/screenshot-malazgirt.png` ve `assets/screenshot-berlin.png`: 7.6.0 test çalıştırmalarından gerçek oyun görüntüleri. 7.6.1 aynı oynanış temelini kullanır.
 

@@ -25,7 +25,7 @@ A community-made mod for **Warlapse on Windows / Steam** that adds a 3D battlefi
 4. Launch using the new desktop shortcut or `Oyunu-Ac.cmd`.
 5. Start an **offline battle**, finish deployment, then press **G** to enter 3D.
 
-The Workshop page provides the description and GitHub download link. Installation uses the Windows package from GitHub.
+The Workshop page uses a separate **empty announcement package**, **Warlapse Battle 3D — Download Notice** (notice version 1.0.0). It contains only package information, the supplied logo/preview and explanatory text. **Subscribing does not install or activate the 3D mod.** Install the playable mod using the Windows package from GitHub. See the [announcement publishing guide](docs/WORKSHOP-ANNOUNCEMENT.md) for the native notice ZIP and the difference between it and the publishing-materials ZIP.
 
 The installer creates a **separate game copy** at `%LOCALAPPDATA%\Warlapse-Battle3D-761` by default and applies the mod there. The modded copy and Steam game **share saves and settings**. The game itself is not included.
 
@@ -103,7 +103,9 @@ Windows / Steam Warlapse için bağımsız bir topluluk modu. Çevrimdışı sav
 4. Masaüstü kısayolunu veya `Oyunu-Ac.cmd` dosyasını kullan.
 5. **Çevrimdışı savaşta** konuşlandırmayı bitir ve **G** tuşuyla 3D'ye geç.
 
-Workshop sayfası tanıtım ve GitHub indirme bağlantısı içindir. Kurucu, Steam oyunundan **ayrı bir kopya** oluşturur; varsayılan hedef `%LOCALAPPDATA%\Warlapse-Battle3D-761` olur. Modlu kopya ile Steam oyunu **kayıtları ve ayarları paylaşır**. Oyun pakete dahil değildir.
+Workshop sayfası için ayrı bir **boş duyuru paketi**, **Warlapse Battle 3D — Download Notice** (duyuru sürümü 1.0.0) hazırlanmıştır. Yalnızca paket bilgileri, gönderilen logo/önizleme ve açıklama metni içerir. **Abone olmak 3D modu kurmaz veya açmaz.** Gerçek mod GitHub'daki Windows paketinden kurulur. Oyuna aktarılabilir duyuru ZIP'i ve açıklama/görsel arşivi arasındaki fark için [duyuru yayın rehberine](docs/WORKSHOP-ANNOUNCEMENT.md) bak.
+
+Kurucu, Steam oyunundan **ayrı bir kopya** oluşturur; varsayılan hedef `%LOCALAPPDATA%\Warlapse-Battle3D-761` olur. Modlu kopya ile Steam oyunu **kayıtları ve ayarları paylaşır**. Oyun pakete dahil değildir.
 
 ### Dil ve mod bilgisi
 
@@ -155,8 +157,8 @@ Kaldırmak için oyunu kapatıp **yalnızca mod için oluşturduğun kopyayı** 
 
 ## Source and publication / Kaynak ve yayın
 
-The repository includes C# sources in `src/`, build/package tools in `tools/` and Workshop descriptions in `docs/`. Local references from a supported Steam installation are required to build; proprietary game files are not distributed. The player ZIP contains the compiled mod and installation material.
+The repository includes C# sources in `src/`, build/package tools in `tools/`, Workshop descriptions in `docs/` and the separate notice's three-file source in `workshop/battle3d-github-info/`. Local references from a supported Steam installation are required to build; proprietary game files are not distributed. The player ZIP contains the compiled mod and installation material. Packaging also emits the separate importable notice ZIP when its source folder is present.
 
-Depoda `src/` içinde C# kaynakları, `tools/` içinde derleme/paketleme araçları, `docs/` içinde Workshop metinleri bulunur. Derleme için yerel desteklenen Steam oyununun başvuruları gerekir; oyun dosyaları dağıtılmaz. Oyuncu ZIP'i derlenmiş modu ve kurulum dosyalarını içerir.
+Depoda `src/` içinde C# kaynakları, `tools/` içinde derleme/paketleme araçları, `docs/` içinde Workshop metinleri ve `workshop/battle3d-github-info/` içinde ayrı duyurunun üç kaynak dosyası bulunur. Derleme için yerel desteklenen Steam oyununun başvuruları gerekir; oyun dosyaları dağıtılmaz. Oyuncu ZIP'i derlenmiş modu ve kurulum dosyalarını içerir. Duyuru kaynak klasörü bulunduğunda paketleme aracı ayrıca oyuna aktarılabilir duyuru ZIP'ini üretir.
 
 [Publication guide / Yayın rehberi](docs/YAYINLAMA.md) · [Changes / Değişiklikler](CHANGELOG.md) · [Component notices / Bileşen bildirimleri](THIRD-PARTY-NOTICES.md)
