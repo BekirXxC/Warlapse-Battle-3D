@@ -1,0 +1,29 @@
+[h1]Warlapse Battle 3D — Download Notice[/h1]
+
+[b]IMPORTANT: THIS IS AN EMPTY ANNOUNCEMENT PACKAGE, NOT THE PLAYABLE 3D MOD.[/b]
+Subscribing to this Workshop item does not install or activate Warlapse Battle 3D.
+
+This small package contains only its package information, the preview/logo and explanatory text. It contains no 3D mod DLL, executable, installer, units, structures, maps, campaigns or gameplay scripts. Enabling this notice package does not turn on 3D battles or change gameplay. The visuals category is used to publish its branding and preview.
+
+[h2]Real mod — download and installation[/h2]
+Project, screenshots and instructions:
+https://github.com/BekirXxC/Warlapse-Battle-3D
+Windows releases:
+https://github.com/BekirXxC/Warlapse-Battle-3D/releases
+If no Windows release is listed yet, the download has not been published. This Workshop item is not a replacement for the Windows package.
+
+Download Warlapse-Battle-3D-7.6.1-Windows.zip from GitHub Releases, extract the entire archive and run Kur.cmd. Launch with the created desktop shortcut or Oyunu-Ac.cmd. A supported installation of Warlapse for Windows / Steam is required; the game is not included. The installer makes a separate game copy; saves and settings remain shared.
+
+[h2]What the separate 3D mod adds[/h2]
+- A 3D battlefield, free camera and soldier camera for offline battles.
+- WASD movement of your selected soldier and G / Esc to return to 2D.
+- Era-based soldiers and vehicles, vegetation, sunlight, shadows and weather.
+- Optional enhanced graphics with F8.
+Combat and damage still use the game's unit-level simulation. These features are in the GitHub mod, not in this Workshop notice.
+
+After deployment in an offline battle, press G for 3D and F for soldier view. The real mod starts in English; use TR / ENG in its main-menu panel or 3D HUD. Hold Ctrl to click HUD buttons. Your language selection is saved.
+
+Feedback and compatibility:
+https://github.com/BekirXxC/Warlapse-Battle-3D/issues
+
+The cover artwork is promotional. Images labelled as gameplay screenshots show the actual mod. This is an independent community project.

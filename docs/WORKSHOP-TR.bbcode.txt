@@ -1,0 +1,29 @@
+[h1]Warlapse Battle 3D — İndirme Duyurusu[/h1]
+
+[b]ÖNEMLİ: BU PAKET OYNANABİLİR 3D MOD DEĞİL, İÇİ BOŞ BİR DUYURU PAKETİDİR.[/b]
+Workshop'a abone olmak Warlapse Battle 3D'yi kurmaz veya etkinleştirmez.
+
+Bu küçük pakette yalnızca paket bilgileri, önizleme/logo ve açıklama metinleri bulunur. Gerçek 3D mod DLL'si, çalıştırılabilir dosya, kurucu, asker, yapı, harita, sefer veya oynanış kodu içermez. Duyuru paketini etkinleştirmek 3D savaşları açmaz ve oynanışı değiştirmez. Logo ve önizleme yayını için visuals kategorisi kullanılır.
+
+[h2]Gerçek mod — indirme ve kurulum[/h2]
+Proje, görseller ve yönergeler:
+https://github.com/BekirXxC/Warlapse-Battle-3D
+Windows sürümleri:
+https://github.com/BekirXxC/Warlapse-Battle-3D/releases
+Henüz Windows sürümü görünmüyorsa indirme yayımlanmamıştır. Bu Workshop öğesi Windows kurulum paketinin yerine geçmez.
+
+GitHub Releases sayfasından Warlapse-Battle-3D-7.6.1-Windows.zip dosyasını indirip tamamını çıkarın ve Kur.cmd dosyasını çalıştırın. Oluşan masaüstü kısayolundan veya Oyunu-Ac.cmd ile başlatın. Windows / Steam Warlapse'ın desteklenen kurulumu gerekir; oyun pakete dahil değildir. Kurucu ayrı bir oyun kopyası oluşturur; kayıtlar ve ayarlar paylaşılmaya devam eder.
+
+[h2]Ayrı indirilen 3D modda neler var?[/h2]
+- Çevrimdışı savaşlar için 3D savaş alanı, serbest kamera ve asker kamerası.
+- Seçtiğiniz askeri WASD ile hareket ettirme; G / Esc ile 2D'ye dönüş.
+- Çağa göre askerler ve araçlar, bitki örtüsü, güneş, gölgeler ve hava efektleri.
+- F8 ile isteğe bağlı gelişmiş grafikler.
+Saldırı ve hasar hâlâ oyunun birlik düzeyindeki sistemiyle hesaplanır. Bu özellikler GitHub'daki gerçek modda bulunur; Workshop duyuru paketinde bulunmaz.
+
+Çevrimdışı savaşta konuşlandırma bittikten sonra G ile 3D'ye, F ile asker gözüne geçin. Gerçek mod İngilizce başlar; ana menüdeki veya 3D arayüzündeki TR / ENG seçimiyle değiştirin. Arayüz düğmeleri için Ctrl basılı tutun. Dil seçiminiz kaydedilir.
+
+Geri bildirim ve uyumluluk:
+https://github.com/BekirXxC/Warlapse-Battle-3D/issues
+
+Kapak tanıtım çizimidir. Oyun görüntüsü olarak belirtilen görseller gerçek modu gösterir. Bu bağımsız bir topluluk projesidir.
