@@ -1,0 +1,44 @@
+name: Package Windows release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release version
+        shell: pwsh
+        run: |
+          $version = (Get-Content VERSION.txt -Raw).Trim()
+          if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -ne "v$version") {
+            throw 'Tag and VERSION.txt must match.'
+          }
+      - name: Package prebuilt mod only
+        shell: pwsh
+        run: ./tools/Package.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Warlapse-Battle-3D-Windows
+          path: dist/*
+      - name: Publish tagged release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: |
+          $files = @(Get-ChildItem -LiteralPath dist -File | ForEach-Object FullName)
+          # Reruns replace assets on an existing release instead of failing to create it again.
+          gh release view $env:GITHUB_REF_NAME --json tagName > $null
+          if ($LASTEXITCODE -eq 0) {
+            gh release upload $env:GITHUB_REF_NAME $files --clobber
+          } else {
+            gh release create $env:GITHUB_REF_NAME $files --title "Warlapse Battle 3D $env:GITHUB_REF_NAME" --notes-file docs/RELEASE-NOTES.md
+          }
+          if ($LASTEXITCODE -ne 0) { throw 'GitHub Release could not be published.' }
