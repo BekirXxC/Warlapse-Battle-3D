@@ -1,0 +1,33 @@
+name: Hata bildirimi
+description: Kurulum veya oyun sırasında karşılaştığınız sorunu bildirin.
+title: "[Hata] "
+body:
+  - type: markdown
+    attributes:
+      value: "Mod sürümünü ve sorunu yeniden üretme adımlarını ekleyin. Kayıt veya günlük paylaşmadan önce kişisel bilgileri çıkarın."
+  - type: input
+    id: version
+    attributes:
+      label: Mod sürümü
+      placeholder: "7.6.1"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Beklenen ve görülen davranış
+      description: "Hata mesajını varsa aynen ekleyin."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Yeniden üretme adımları
+      description: "Harita, çağ, birlik sayısı ve gelişmiş grafiklerin açık olup olmadığını ekleyin."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Sistem ve oyun derlemesi
+      description: "Windows sürümü, ekran kartı ve biliyorsanız oyun derlemesi veya Assembly-CSharp.dll SHA-256 özeti."
